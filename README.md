@@ -1,6 +1,6 @@
 # react-point-of-sale
 
-A simple point of sale application built using react &amp; node.js, yarn.
+A simple point of sale application built using react &amp; node.js, yarn..
 
 ## To run the current code in Development Mode
 
