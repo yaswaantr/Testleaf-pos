@@ -4,6 +4,9 @@ A simple point of sale application built using react &amp; node.js, yarn..
 
 ## Steps to Deploy Pos app in Ubuntu VM
 
+1. Fork repo to your account -> https://github.com/mohan-balakrishnan/Testleaf-pos
+2. Go to Testleaf-pos/src/api/apiBuilder.js -> modify your server ip
+
 ```bash
 sudo apt update
 sudo apt install -y curl dirmngr apt-transport-https lsb-release ca-certificates
