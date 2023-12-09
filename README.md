@@ -4,21 +4,21 @@ A simple point of sale application built using react &amp; node.js, yarn..
 
 ## Steps to Deploy Pos app in Ubuntu VM
 
-sudo apt update
-sudo apt install -y curl dirmngr apt-transport-https lsb-release ca-certificates
-curl -fsSL https://deb.nodesource.com/setup_16.x | sudo -E bash -
-sudo apt install -y nodejs
-node -v
-sudo npm install -g yarn
-git clone <github-url>
-cd Testleaf-pos
-npm install
-yarn install
-nohup sudo yarn dev:web > /dev/null 2>&1 &
-cd api
-npm install
-yarn install
-nohup sudo yarn dev:api > /dev/null 2>&1 &
+`sudo apt update`
+`sudo apt install -y curl dirmngr apt-transport-https lsb-release ca-certificates`
+`curl -fsSL https://deb.nodesource.com/setup_16.x | sudo -E bash -`
+`sudo apt install -y nodejs`
+`node -v`
+`sudo npm install -g yarn`
+`git clone <github-url>`
+`cd Testleaf-pos`
+`npm install`
+`yarn install`
+`nohup sudo yarn dev:web > /dev/null 2>&1 &`
+`cd api`
+`npm install`
+`yarn install`
+`nohup sudo yarn dev:api > /dev/null 2>&1 &`
 
 ## To run the current code in Development Mode
 
