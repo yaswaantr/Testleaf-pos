@@ -17,7 +17,7 @@ sudo apt install -y nodejs
 node -v
 sudo npm install -g yarn
 
-git clone https://github.com/mohan-balakrishnan/Testleaf-pos
+git clone <YOUR-GITHUB-REPO-URL>
 cd Testleaf-pos
 
 npm install
