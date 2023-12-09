@@ -24,9 +24,7 @@ cd api
 npm install
 yarn install
 nohup sudo yarn dev:api > /dev/null 2>&1 &
-
-exit
-
+```
 
 ## To run the current code in Development Mode
 
