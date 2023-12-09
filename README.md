@@ -6,6 +6,7 @@ A simple point of sale application built using react &amp; node.js, yarn..
 
 1. Fork repo to your account -> https://github.com/mohan-balakrishnan/Testleaf-pos
 2. Go to Testleaf-pos/src/api/apiBuilder.js -> modify your server ip
+3.Run following commands to deploy app
 
 ```bash
 sudo apt update
