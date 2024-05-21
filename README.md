@@ -37,6 +37,24 @@ nohup sudo yarn dev:api > /dev/null 2>&1 &
 3. Run `yarn dev:api` in another terminal session to start the backend API in `localhost:3500`
 4. Navigate to `http://localhost` eg: `http://publicip` and use `admin` as username & password to see the dashboard.
 
+## Steps to Build and Run application in Docker
+
+### 1. Build Docker Image
+
+To build the Docker image, run the following command in your terminal:
+
+```sh
+docker build -t pos-system-app .
+```
+
+### 2. Run Application
+
+To run the Selenium tests using the Docker image, use the following command:
+
+```sh
+docker run -d -p 80:80 -p 3500:3500 --name pos-system-app pos-system-app
+```
+
 ## Some screenshots
 
 <img width="1440" alt="login" src="https://user-images.githubusercontent.com/11159061/41917847-c7aaa21e-7978-11e8-89a3-c24991753fd5.png">
