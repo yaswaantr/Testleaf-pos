@@ -55,6 +55,8 @@ To run the Selenium tests using the Docker image, use the following command:
 docker run -d -p 80:80 -p 3500:3500 --name pos-system-app pos-system-app:latest
 ```
 
+Navigate to [http://localhost](http://publicip) and use `admin` as **username** & **password** to see the dashboard.
+
 ## Some screenshots
 
 <img width="1440" alt="login" src="https://user-images.githubusercontent.com/11159061/41917847-c7aaa21e-7978-11e8-89a3-c24991753fd5.png">
