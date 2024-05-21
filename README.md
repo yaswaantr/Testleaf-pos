@@ -44,7 +44,7 @@ nohup sudo yarn dev:api > /dev/null 2>&1 &
 To build the Docker image, run the following command in your terminal:
 
 ```sh
-docker build -t pos-system-app .
+docker build -t pos-system-app:latest .
 ```
 
 ### 2. Run Application
@@ -52,7 +52,7 @@ docker build -t pos-system-app .
 To run the Selenium tests using the Docker image, use the following command:
 
 ```sh
-docker run -d -p 80:80 -p 3500:3500 --name pos-system-app pos-system-app
+docker run -d -p 80:80 -p 3500:3500 --name pos-system-app pos-system-app:latest
 ```
 
 ## Some screenshots
