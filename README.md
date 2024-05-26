@@ -49,7 +49,7 @@ docker build -t pos-system-app:latest .
 
 ### 2. Run Application
 
-To run the Selenium tests using the Docker image, use the following command:
+To run the Docker image, use the following command:
 
 ```sh
 docker run -d -p 80:80 -p 3500:3500 --name pos-system-app pos-system-app:latest
