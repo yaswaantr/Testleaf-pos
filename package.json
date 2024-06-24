@@ -41,7 +41,7 @@
     "eslint-plugin-react": "^7.7.0"
   },
   "scripts": {
-    "dev:web": "PORT=80 react-scripts start",
+    "dev:web": "PORT=89 react-scripts start",
     "dev:api": "cd api && yarn run dev:api",
     "build:web": "react-scripts build",
     "build:api": "cd api && yarn run build:api",
