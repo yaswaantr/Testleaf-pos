@@ -39,6 +39,8 @@ nohup sudo yarn dev:api > /dev/null 2>&1 &
 
 ## Steps to Build and Run application in Docker
 
+Important: Go to Testleaf-pos/src/api/apiBuilder.js -> modify your server ip
+
 ### 1. Build Docker Image
 
 To build the Docker image, run the following command in your terminal:
