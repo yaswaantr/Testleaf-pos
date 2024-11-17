@@ -8,7 +8,7 @@ RUN apt-get update && apt-get install -y git supervisor
 WORKDIR /app
 
 # Clone your GitHub repository into the Docker image
-RUN git clone https://github.com/Your-UserName/Testleaf-pos .
+RUN git clone https://github.com/yaswaantr/Testleaf-pos .
 
 # Optionally, specify the branch or commit you want to clone
 CMD cd Testleaf-pos
